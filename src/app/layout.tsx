@@ -38,9 +38,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header className="flex justify-end p-4">
+          <div className="fixed left-4 top-1/2 -translate-y-1/2 z-50 flex flex-col items-center gap-4">
             <ThemeToggle />
-          </header>
+          </div>
           {children}
         </ThemeProvider>
       </body>

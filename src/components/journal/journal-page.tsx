@@ -72,7 +72,7 @@ export function JournalPage() {
 
   return (
     <div className="flex flex-col h-screen max-w-4xl mx-auto overflow-hidden">
-      <div className="shrink-0 py-12">
+      <div className="shrink-0 pt-6 pb-12">
         <div className="flex items-center justify-between px-6">
           <h1 className="text-2xl font-semibold">
             {formatDateDisplay(currentDate)}
