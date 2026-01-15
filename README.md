@@ -1,4 +1,4 @@
-# iki
+# Ilo
 
 Time-based journal app. Write notes organized by hour of the day. Auto-saves as you type.
 

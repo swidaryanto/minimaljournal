@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Iki",
-  description: "Minimal journaling app.",
+  title: "Ilo",
+  description: "A minimal journal for your thoughts",
 };
 
 import { ThemeProvider } from "@/components/theme-provider";
@@ -42,7 +42,7 @@ export default function RootLayout({
           <div className="hidden md:flex fixed left-4 top-1/2 -translate-y-1/2 z-50 flex-col items-center gap-4">
             <ThemeToggle />
           </div>
-          
+
           {children}
         </ThemeProvider>
       </body>
